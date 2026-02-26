@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jos/html.king</title>
+</head>
+<body>
+welcome in Joshua Workshop  
+<h2>Mon programme</h2>
+<p id="statut">En attente...</p>
+<button onclick="lancerTache()">lancer l'execution</button>
+
+<script>
+    function lancerTache() {
+        // 1. Modifier le texte
+        document.getElementById("statut").innnerHTML ="<b>Action en cours...</b>";
+        // 2. Changer une couleur
+        document.getElementById("statut").style.color = "red";
+        // 3. Afficher un message de confirmation
+        console.log("Tache exécutée avec succes.");
+        }""
+    </script>
+</body>
+<html>
+<head>
+    <style>
+        .photo-formation {
+            border: 5px solid #2ecc71;/* Un cadre vert */
+            border-radius: 10px;       /* Des bords arrondis*/
+            box-shadow:5px 5px 15px rgba(red, green, blue, alpha);
+        }
+    </style>
+</head>
+<body>
+    <h2>Bienvenue dans votre module informatique</h2>
+
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
+         alt="Un ordinateur portable"
+         width="400"
+         class="photo-formation">
+    <p id="statut">Pret à apprendre ?</p>
+    <button onclick="lancerTache()">Commencer</button>
+    <script>
+        function lancerTache() {
+            document.getElementById("statut").innerHTML ="<b>Le cours s'affiche...</b>";
+        }
+    </script>
+
+</body>
+</html>
+<section style="padding: 20px; background-color: #f9f9f9;border-left: 5px solid #3498db;">
+    <h2> Qu'est-ce que l'informatique ?
+    <p>
+        l'<strong>informatique</strong>est la science du traitement rationnel,notament par des machines automatique, de l'information considérée comme le support des connaissances humaines et des communications.
+    </p>
+    <p>Le mot est la contraction de <i>"informatique"</i> et <i>"automatique"</i>.</p>
+</section>
+
+    
